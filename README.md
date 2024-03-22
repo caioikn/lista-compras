@@ -1,38 +1,23 @@
-#Projeto Lista de Compras - Utilizado no Curso Objetos no JavaScript - Escola Front-End Alura
+# Lista de Compras
 
-Neste arquivo encontram-se modelos de códigos que serão utilizados no decorrer do curso. 
+<p align="center">
+     <img loading="lazy" alt="Static Badge" src="https://img.shields.io/badge/Status-Conclu%C3%ADdo-blue?style=for-the-badge">
+</p>
 
-Código modelo da li "Comprados":
+Lista de compras criada utilizando JavaScript para manipular elementos do DOM e armazenar os dados no navegador (localStorage).
 
-    <li class="item-compra is-flex is-justify-content-space-between" data-value="">
-        <div>
-            <input type="checkbox" checked class="is-clickable" />  
-            <span class="itens-comprados is-size-5"></span>
-        </div>
-        <div>
-            <i class="fa-solid fa-trash is-clickable deletar"></i>
-        </div>
-    </li>
+![Tela da lista de compras](https://github.com/caioikn/lista-compras/assets/28030999/ed6b5287-0452-4fe6-9e1c-118b4fbf6325)
 
-Código modelo da li "Lista de compras": 
+## 🔨 Funcionalidades
+- Digitar no campo um item para ser comprado
+- Editar, deletar ou selecionar como comprado cada item da lista
+- Tirar o item do comprado
 
-    <li class="item-compra is-flex is-justify-content-space-between" data-value="">
-        <div>
-            <input type="checkbox" class="is-clickable" />
-            <input type="text" class="is-size-5" value=""></input>
-        </div>
-        <div>
-            <i class="fa-solid fa-trash is-clickable deletar"></i>
-        </div>
-    </li>
+## 💻 Tecnologias utilizadas
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
-Input com código refatorado:
+## 🔗 Links
+- [Baixar arquivos](https://github.com/caioikn/lista-compras/archive/main/lista-compras.zip)
 
-    <div>
-        <input type="checkbox" checked class="is-clickable" />  
-        <span class="itens-comprados is-size-5">${elemento.valor}</span>
-    </div>
-
-Ícones de edição:
-
-    <i class="fa-regular fa-floppy-disk is-clickable"></i><i class="fa-regular is-clickable fa-pen-to-square editar"></i>
+## 🧑🏻‍💻 Autor
+**Desenvolvido por [Caio](https://www.linkedin.com/in/caioikena/)** 💙
